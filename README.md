@@ -1,13 +1,11 @@
 # NoNotes Extension For Quarto
 
-_TODO_: Add a short description of your extension.
+This very simple extension/Lua filter removes the content of `notes` containers, which can be useful if you want to export your Beamer or RevealJS presentation to a format that won’t recognize it (ex : simple PDF or HTML). It’s actually just a wrapper around [a piece of code](https://github.com/jgm/pandoc/issues/8636#issuecomment-2341524975) provided by @tarleb.
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto add <github-organization>/nonotes
+quarto add pagiraud/nonotes
 ```
 
 This will install the extension under the `_extensions` subdirectory.
@@ -15,7 +13,7 @@ If you're using version control, you will want to check in this directory.
 
 ## Using
 
-_TODO_: Describe how to use your extension.
+Simply add the filter `nonotes` to your YAML header.
 
 ## Example
 
