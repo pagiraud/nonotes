@@ -1,0 +1,18 @@
+---
+title: "NoNotes Example"
+filters:
+  - nonotes
+---
+
+## Heading
+
+This filter drops everything within a `notes` container. It’s useful if you want to export your presentation (Beamer, revealJS) to a format which doesn’t know this container (and you don’t want your speaker notes to be published).
+
+Example:
+
+```
+With this filter, this will be displayed
+
+::: notes
+And this won’t
+:::
