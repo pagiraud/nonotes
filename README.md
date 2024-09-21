@@ -18,7 +18,7 @@ Simply add the filter `speakernotes` to your YAML header.
 ### Options
 Options can be configured in the YAML header. Here are all the options available with their default values:
 
-```
+```yaml
 speakernotes:
   displayNotes: false
   notesTitle: "Notes"
