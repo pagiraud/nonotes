@@ -1,7 +1,7 @@
 ---
-title: "NoNotes Example"
+title: "Speaker Notes Example"
 filters:
-  - nonotes
+  - speakernotes
 ---
 
 ## Heading
