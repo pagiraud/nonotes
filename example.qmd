@@ -2,17 +2,41 @@
 title: "Speaker Notes Example"
 filters:
   - speakernotes
+format:
+  pdf:
+    speakernotes:
+      displayNotes: true
+      customStyle: |
+        roundcorner=5pt,
+        subtitlebelowline=true,
+        subtitleaboveline=true,
+        subtitlebackgroundcolor=yellow!70!white,
+        backgroundcolor=blue!20!white,
+        frametitle={Theorem},
+        frametitlerule=true,
+        frametitlebackgroundcolor=yellow!70!white,
+  html: 
+    speakernotes:
+      displayNotes: true
+      borderColor: black
+      backgroundColor: gray
+      notesTitle: "Mama"
+  odt: 
+    speakernotes:
+      displayNotes: true
+      notesTitle: "Notes in ODT format"
+  docx: default #The notes won’t be shown when exporting to docx.
 ---
 
-## Heading
+## Some slide title
 
-This filter drops everything within a `notes` container. It’s useful if you want to export your presentation (Beamer, revealJS) to a format which doesn’t know this container (and you don’t want your speaker notes to be published).
+Some slide content
 
 Example:
 
-```
 With this filter, this will be displayed
 
 ::: notes
-And this won’t
+Will these notes be displayed ?
 :::
+
