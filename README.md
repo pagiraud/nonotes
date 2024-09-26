@@ -1,6 +1,6 @@
 # Speaker Notes Extension For Pandoc and Quarto
 
-This Pandoc filter / Quarto extension helps dealing with 'notes' containers used in presentations (Beamer, RevealJS or PowerPoint) when used in another format that won’t recognize it (ex : PDF, HTML). The default behavior of this filter is to remove the content of 'notes' containers (works with all format) but it can be used to display them in a framed box (for now, PDF only).
+This Pandoc filter / Quarto extension helps dealing with 'notes' containers used in presentations (Beamer, RevealJS or PowerPoint) when used in another format that won’t recognize it (ex : PDF, HTML). The default behavior of this filter is to remove the content of 'notes' containers (works with all format) but it can be used to display them in a framed box (for now, PDF and HTML only) or use arbitrary formatting (for now, PDF, HTML, ODT and DOCX only).
 
 ## Rational
 
